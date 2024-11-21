@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "name": "Playwright Tests",
+      "request": "launch",
+      "program": "${workspaceFolder}/playwright/node_modules/.bin/playwright",
+      "args": [
+        "test",
+        "-g",
+        "@poc(?!\\d)", // "PJT-T43(?!\\d)",
+        "--headed",
+        "--workers",
+        "1"
+      ],
+      "runtimeExecutable": "/Users/huonglai/.nvm/versions/node/v18.19.1/bin/node",
+      "cwd": "${workspaceFolder}/playwright",
+      "outputCapture": "std"
+    }
+  ]
+}

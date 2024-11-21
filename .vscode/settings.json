@@ -1,0 +1,12 @@
+{
+  "cucumberautocomplete.steps": [
+    "__tests__/steps/*.js"
+  ],
+  "cucumberautocomplete.syncfeatures": "__tests__/**/*.feature",
+  "cucumberautocomplete.strictGherkinCompletion": false,
+  "cucumberautocomplete.smartSnippets": true,
+  "cucumberautocomplete.stepsInvariants": true,
+  // https://stackoverflow.com/questions/64001669/zsh-and-vscode-default-shells
+  // Edit July 2021 - New Updated Snippet
+  "terminal.integrated.defaultProfile.osx": "zsh"
+}

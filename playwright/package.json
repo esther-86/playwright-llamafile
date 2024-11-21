@@ -1,0 +1,24 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "ttest": "playwright test --config=playwright-unittests.config.ts"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "moment": "^2.30.1",
+    "@playwright/test": "1.47",
+    "@types/node": "^20.11.22",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "google-auth-library": "^9.13.0",
+    "googleapis": "^140.0.1",
+    "shared-libs": "file:../shared-libs",
+    "pdf-parse": "^1.1.1",
+    "sharp": "0.32.6"
+  }
+}
