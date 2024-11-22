@@ -5,3 +5,5 @@ test-results.xml
 /playwright/test-results.xml
 /playwright/test-results/
 /playwright/test-html/
+llama.log
+shared-libs/llamafiles/using
