@@ -1,11 +1,12 @@
 /* eslint-disable lines-around-comment */
 import { LLM } from "llama-node";
-import { LLamaCpp } from "llama-node/dist/llm/llama-cpp.js";
 import path from "path";
 
 class LMApi {
 
   static async runQuery() {
+    // Dynamically import LLamaCpp
+    const { LLamaCpp } = await import("llama-node/dist/llm/llama-cpp.js");
     const model = path.resolve(process.cwd(), "../ggml-vic7b-q5_1.bin");
     const llama = new LLM(LLamaCpp);
     const config = {
@@ -43,7 +44,7 @@ ASSISTANT:`;
       });
     }
 
-    run();
+    await run();
   }
 }
 
