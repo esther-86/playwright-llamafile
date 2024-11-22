@@ -10,5 +10,6 @@ for (const current of poc_data) {
     async ({ thisTest, context, page }) => {
       await thisTest.initializeTestInfo(test, current, page, context)
       // Launch https://www.techlistic.com/p/selenium-practice-form.html
+      await My.Api.LM.runQuery()
     });
 }

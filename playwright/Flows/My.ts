@@ -40,7 +40,7 @@ class My {
   public readonly Pdf = PdfHelper;
 
   public readonly CommonFlows = CommonFlows;
-  public readonly Lumos = AppFlows;
+  public readonly App = AppFlows;
 }
 
 export default My.getInstance(); // Exporting the singleton instance

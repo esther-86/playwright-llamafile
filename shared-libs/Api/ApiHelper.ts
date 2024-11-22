@@ -1,5 +1,5 @@
 import { EnvHelper } from '../Helpers/EnvHelper';
-import { QueriesApi } from './QueriesApi';
+import { LMApi } from './LMApi';
 const Env = EnvHelper.getInstance()
 
 class ApiHelper {
@@ -13,7 +13,7 @@ class ApiHelper {
     return ApiHelper.instance;
   }
 
-  public readonly Queries = QueriesApi
+  public readonly LM = LMApi
 }
 
 export { ApiHelper }

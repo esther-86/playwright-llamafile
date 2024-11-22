@@ -1,6 +1,0 @@
-node_modules/
-playwright/node_modules/
-shared-libs/node_modules/
-test-results.xml
-playwright/test-results.xml
-playwright/test-results/
