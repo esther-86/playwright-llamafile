@@ -5,7 +5,10 @@ import axios from 'axios';
 chmod +x shared-libs/llamafiles/using 
 ./shared-libs/llamafiles/using --server
 
-https://github.com/Mozilla-Ocho/llamafileL: Download a file and put it in the shared-libs/llamafiles folder, name it "using"
+chmod +x using 
+./using --server
+
+https://github.com/Mozilla-Ocho/llamafile: Download a file and put it in the shared-libs/llamafiles folder, name it "using"
 https://www.linkedin.com/learning/small-language-models-and-llamafile/small-language-models?u=46106868
 Preference: llamafile over llama-node: https://llama-node.vercel.app/docs/start
 */
